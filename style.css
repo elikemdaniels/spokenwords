@@ -54,7 +54,7 @@ footer {
   display: flex;
   flex-direction: column;
   row-gap: 3rem;
-  margin-top: 12rem;
+  margin-top: clamp(6rem, 3rem + 15vw, 12rem);
 }
 
 .nav-container {
@@ -68,6 +68,6 @@ footer {
 }
 
 .footer-container {
-  padding-top: 2rem;
+  padding-block: 1.25rem;
   border-top: 1px solid var(--blue-dark-600);
 }
