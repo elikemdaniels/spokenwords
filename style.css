@@ -54,7 +54,7 @@ footer {
   display: flex;
   flex-direction: column;
   row-gap: 3rem;
-  margin-top: clamp(6rem, 3rem + 15vw, 12rem);
+  margin-block: clamp(6rem, 3rem + 15vw, 12rem);
 }
 
 .nav-container {
